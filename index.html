@@ -7,12 +7,13 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <div class="container">
+  <main class="container">
     <h1>🎯 Desafio das Cores</h1>
+
     <label for="playerName">Seu nome:</label>
     <input type="text" id="playerName" placeholder="Digite seu nome" />
     <button id="startButton">Jogar</button>
-    
+
     <div id="gameInfo" class="hidden">
       <p>Cor a ser clicada: <span id="targetColor"></span></p>
       <p>Pontuação: <span id="score">0</span></p>
@@ -21,18 +22,18 @@
 
     <div id="grid" class="grid hidden"></div>
 
-<div id="gameOver" class="hidden">
-  <h2>🏁 Fim de Jogo!</h2>
-  <p id="finalScore"></p>
-  <button id="playAgainButton">Jogar Novamente</button>
-</div>
+    <div id="gameOver" class="hidden">
+      <h2>🏁 Fim de Jogo!</h2>
+      <p id="finalScore"></p>
+      <button id="playAgainButton">Jogar Novamente</button>
+    </div>
 
-<div id="ranking">
-  <h2>🏆 Ranking</h2>
-  <ol id="rankingList"></ol>
-</div>
+    <div id="ranking">
+      <h2>🏆 Ranking</h2>
+      <ol id="rankingList"></ol>
+    </div>
+  </main>
 
-<script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
-    

@@ -22,10 +22,18 @@ Como jogar
 Como executar
 
 1. Clone o repositório:
-   ```bash
+```bash
+git clone https://github.com/Emillyxz/desafio-das-cores.git
 
 Ranking 
 
 - Ao final do jogo, os 5 melhores jogadores aparecem no ranking.
 - O ranking é salvo automaticamente no navegador com `localStorage`.
  
+Licença
+
+Este projeto está licenciado sob a licença MIT.
+
+Créditos
+
+Exercícios e práticas desenvolvidas durante a disciplina de JavaScript

@@ -87,11 +87,15 @@ function finalizarJogo(nome) {
   startButton.disabled = false;
 }
 
-}
-
 function reiniciarJogo() {
   document.getElementById("playerName").value = "";
   gameOver.classList.add("hidden");
+  scoreDisplay.textContent = "0";
+  timerDisplay.textContent = "60";
+  targetColorDisplay.textContent = "";
+  startButton.disabled = false;
+  grid.innerHTML = "";
+  gameInfo.classList.add("hidden");
 }
 
 function salvarNoRanking(nome, pontuacao) {
@@ -117,3 +121,8 @@ function exibirRanking() {
 
 startButton.addEventListener("click", iniciarJogo);
 playAgainButton.addEventListener("click", reiniciarJogo);
+
+// Exibir ranking na carga da página
+window.onload = () => {
+  exibirRanking();
+};
