@@ -1,7 +1,7 @@
 Desafio das Cores 
 
 Nome
-Emilly Tainá
+Emilly Tainá da Silva Alves
 
 Regras do Jogo
 
@@ -22,7 +22,7 @@ Como jogar
 Como executar
 
 1. Clone o repositório:
-```bash
+  ```bash 
 git clone https://github.com/Emillyxz/desafio-das-cores.git
 
 Ranking 
